@@ -11,10 +11,12 @@ button.addEventListener('click',function(){
         var nameValue = data['name'];
         var tempValue = data['main']['temp'];
         var descValue = data['weather'][0]['description'];
+        var iconValue = data['weather'][0]['icon'];
 
         document.getElementById('city').innerHTML = nameValue;
         document.getElementById('temp').innerHTML = tempValue;
         document.getElementById('desc').innerHTML = descValue;
+        document.getElementById('icon').innerHTML = iconValue;
     })
 
 .catch(err => alert("Enter a valid city name"))
