@@ -4,9 +4,15 @@
     box-sizing: border-box;
 }
 
+#welcome{
+    font-size: 50px;
+    text-align: center;
+    padding: 2rem 2rem 10px 2rem;
+}
+
 .input{
     text-align: center;
-    margin: 100px 0;
+    margin: 50px 0;
 }
 
 input[type="text"]{
@@ -48,6 +54,8 @@ span {
 }
 
 .container {
+    background-color: aqua;
+    background-image: linear-gradient(to bottom right, aqua, blue);
     max-width: 550px;
     height: 70vh;
     border: 1px solid black;
