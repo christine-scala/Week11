@@ -16,7 +16,7 @@ button.addEventListener('click',function(){
         document.getElementById('city').innerHTML = nameValue;
         document.getElementById('temp').innerHTML = tempValue;
         document.getElementById('desc').innerHTML = descValue;
-        document.getElementById('icon').innerHTML = iconValue;
+        document.getElementById('icon').src = `http://openweathermap.org/img/w/${iconValue}.png`
     })
 
 .catch(err => alert("Enter a valid city name"))
